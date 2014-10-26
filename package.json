@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/AgtLucas/koa-generators/issues"
   },
-  "homepage": "https://github.com/AgtLucas/koa-generators"
+  "homepage": "https://github.com/AgtLucas/koa-generators",
+  "dependencies": {
+    "koa": "~0.13.0"
+  }
 }
