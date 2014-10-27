@@ -5,7 +5,9 @@ function *foo (arg) {
 
 var bar = foo(123);
 
-console.log(bar.next()); */
+console.log(bar.next());
+
+*/
 
 function* foo () {
   var index = 0;
