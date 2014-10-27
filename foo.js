@@ -9,6 +9,7 @@ console.log(bar.next());
 
 */
 
+/**
 function* foo () {
   var index = 0;
   while (index < 2) {
@@ -21,3 +22,19 @@ var bar = foo();
 console.log(bar.next());
 console.log(bar.next());
 console.log(bar.next());
+
+*/
+
+function* foo() {
+  try {
+    x = yield 'asd B';
+  } catch (err) {
+    throw err;
+  }
+}
+
+var bar = foo();
+
+if (bar.next().value == 'B') {
+  bar.throw(new Error("it's B!"));
+}
